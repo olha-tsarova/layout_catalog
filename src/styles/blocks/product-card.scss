@@ -12,6 +12,13 @@
     display: block;
     height: 134px;
     width: 160px;
+    transition-duration: 400ms;
+    transition-property: transform;
+
+    &:hover {
+      transform: scale(1.2);
+      border: 3px solid #eee;
+    }
   }
 
   &__title {
@@ -62,6 +69,7 @@
     width: 170px;
     background-color: $lightblue;
     border-radius: 5px;
+    transition-duration: 400ms;
 
     &:hover {
       background-color: #fff;
